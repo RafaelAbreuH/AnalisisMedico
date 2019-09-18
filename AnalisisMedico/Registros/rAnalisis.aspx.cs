@@ -140,7 +140,6 @@ namespace AnalisisMedico.Registros
 
         protected void AgregarButton_Click(object sender, EventArgs e)
         {
-
             Analisis analisis = new Analisis();
             string desc = TipoAnalisisDropDownList.Text;
 
@@ -208,5 +207,6 @@ namespace AnalisisMedico.Registros
                 Utilss.ShowToastr(this.Page, "No se pudo eliminar!!", "Error", "error");
             Limpiar();
         }
+
     }
 }
